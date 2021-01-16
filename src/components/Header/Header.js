@@ -1,9 +1,9 @@
 import React from "react";
-import TeslaLogo from "../assets/teslaLogoSmall.svg";
-
+import TeslaLogo from "../../assets/teslaLogoSmall.svg";
+import "./Header.css"
 const Header = () => {
   return (
-    <div>
+    <div className="header__container">
       <div className="header__logo">
         <img src={TeslaLogo} alt="tesla__logo" />
       </div>
