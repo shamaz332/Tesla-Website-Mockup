@@ -34,5 +34,6 @@ justify-content: flex-end;
 }
 .header__right>p{
     margin: 10px;
+    margin-right: 40px;
     text-transform: uppercase;
 }
